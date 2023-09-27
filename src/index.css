@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: #2C3E50;
+}
+
+
+
+header,
+.about {
+  background-color: #1ABC9C;
+  padding: 0;
+  margin: 0;
+}
+
+.line {
+  width: 80px;
+  height: 3px;
+  background-color: white;
+}
+
+.portofolio,
+.home,
+.about,
+.contact {
+  padding-top: 50px;
+}
+
+.home {
+  margin-top: 50px;
+}
+
+.portofolio-item {
+  position: relative;
+}
+
+.portofolio-item .plus {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all .5s;
+}
+
+.portofolio-item:hover .plus {
+  opacity: .8;
+}
+
+.portofolio-item .plus .fa-plus {
+  color: white;
+  font-size: 100px;
+  font-weight: bolder;
+
+
+}
